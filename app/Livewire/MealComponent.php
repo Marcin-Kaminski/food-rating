@@ -10,9 +10,8 @@ class MealComponent extends Component
     {
         return view('livewire.meal-component');
     }
-    public function test()
+    public function goToBreakfast()
     {
-        // Logika obsługi kliknięcia guzika
-        dd(15);
+        $this->redirect('/breakfast');
     }
 }

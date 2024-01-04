@@ -1,0 +1,41 @@
+body, html {
+    background-image: url("/images/fakelf.png");
+    height: 100%;
+}
+
+.box {
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    position: fixed;
+    margin: 5% 35% 5% 35%;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.plate-image {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.greeting {
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin: 10% auto;
+    width: 80%;
+    height: 8%;
+    background-color: black;
+    color: white;
+    font-size: 1.1vw;
+    border-radius: 25px;
+    /*margin: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
