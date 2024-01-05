@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->text('name');
             $table->json('ingredients');
-            $table->text('description');
-            $table->text('image_url');
+            $table->text('description')->nullable();
+            $table->text('image_url')->nullable();
             $table->text('category');
             $table->timestamps();
         });

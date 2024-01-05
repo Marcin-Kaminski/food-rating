@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('meal_id')->constrained('meal')->onDelete('cascade');
             $table->float('rating');
-            $table->text('comment');
+            $table->text('comment')->nullable();
             $table->timestamps();
         });
     }
