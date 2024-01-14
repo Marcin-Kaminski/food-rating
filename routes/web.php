@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\MealController;
-use App\Livewire\BreakfastComponent;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +15,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MealController::class, 'index']);
-Route::get('/breakfast', [BreakfastComponent::class, 'index']);

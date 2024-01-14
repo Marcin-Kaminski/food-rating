@@ -1,5 +1,6 @@
 body, html {
-    background-image: url("/images/fakelf.png");
+    /*background-image: url("/images/fakelf.png");*/
+    background-color: #1a202c;
     height: 100%;
 }
 
@@ -53,4 +54,5 @@ body, html {
 .mealbox {
     height: 80%;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
